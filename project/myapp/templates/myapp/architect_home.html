@@ -1,0 +1,11 @@
+{% extends 'myapp/architect_base.html' %}
+{% load static %}
+{% block title %}Hello Admin{% endblock %}
+{% block background %}background="https://images.pexels.com/photos/6615027/pexels-photo-6615027.jpeg?cs=srgb&dl=pexels-tima-miroshnichenko-6615027.jpg&fm=jpg"{% endblock %}
+{% block body %}
+<center>
+        <h2><font color="#366092">Welcome {{ uname}}</font></h2>
+ <img src="{% static 'myapp/images/person.jpg'%}" width="550" height="650">
+
+</center>
+{% endblock %}

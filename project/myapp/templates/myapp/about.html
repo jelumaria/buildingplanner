@@ -1,0 +1,92 @@
+{% extends 'myapp/base.html' %}
+{% load static %}
+{% block title %}
+About Us
+{% endblock %}
+{% block background %}background="https://images.pexels.com/photos/940288/pexels-photo-940288.jpeg?cs=srgb&dl=pexels-toa-heftiba-%C5%9Finca-940288.jpg&fm=jpg" {% endblock %}
+{% block body %}
+
+
+ <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <span>HOME STYLES</span>
+          <h2>HOME STYLES</h2>
+          <p>Different Types Of Homes</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4><a href="">Farmhouse</a></h4>
+              <p>, farmhouse-style homes pull inspiration from their namesake buildings for the interior and exterior of the home. There are often tall ceilings, exposed beams, a large front porch, a rectangular layout and a central fireplace</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="150">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a href="">Cottage</a></h4>
+              <p>Cottage-style houses are often described as cozy and charming. They are typically on the smaller side when it comes to square footage but have a big personality</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4><a href="">Contemporary</a></h4>
+              <p>The contemporary style is often confused with modern, but the two should not be used interchangeably. </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="450">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4><a href="">Apartment.</a></h4>
+              <p>An apartment is a group of housing units in one building, all owned by one entity.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-slideshow"></i></div>
+              <h4><a href="">Bungalow</a></h4>
+              <p>the bungalow was developed because the cottage style house with thick walls didn’t work in India, with its warm climate.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-arch"></i></div>
+              <h4><a href="">Multi-family</a></h4>
+              <p>A multi-family home is one that contains two or more housing units. It’s an umbrella term for a detached home with an in-law suite, or an apartment building</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+{% comment %} <video autoplay muted loop id="myVideo">
+  <source src="{%static './myapp/assets/video/home5.mp4' %}" type="video/mp4">
+</video> {% endcomment %}
+
+<!-- End Services Section -->
+<style>
+  #myVideo {
+ position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  width: 100%;
+  height: 170%;
+  object-fit: cover;
+}
+</style>
+
+
+
+{%endblock%}
